@@ -154,7 +154,7 @@ const Port = () => {
             <div className="avatar-circle">
               {/* <img src="\src\assets\a.jpeg" alt="SMD ZAID" /> */}
               {/* <img src="/a.jpeg" alt="SMD ZAID" /> */}
-              <img src="/Portfolio/a.jpeg" alt="SMD ZAID" />
+              <img src="/a.jpeg" alt="SMD ZAID" />
             </div>
           </div>
         <div className="hero-content">
