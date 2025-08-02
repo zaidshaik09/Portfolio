@@ -1,7 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, Mail, Phone, MapPin, Github, Linkedin, Twitter, ExternalLink, Download, Menu, X } from 'lucide-react';
-// import photo from "C:\FullStackDevelopmenttranning\portfoilo\Portfoilo\src\assets\Screenshot 2025-04-27 093514.png";
-const Port = () => {
+import profilePic from './assets/image.jpg';
+import dow from './assets/zaid-resuma-UP.pdf';
+  const Port = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
@@ -152,9 +154,7 @@ const Port = () => {
         />
         <div className="hero-avatar">
             <div className="avatar-circle">
-              {/* <img src="\src\assets\a.jpeg" alt="SMD ZAID" /> */}
-              {/* <img src="/a.jpeg" alt="SMD ZAID" /> */}
-              <img src="/a.jpeg" alt="SMD ZAID" />
+                <img src={profilePic} alt="Profile" />
             </div>
           </div>
         <div className="hero-content">
@@ -179,7 +179,7 @@ const Port = () => {
               View My Work
               <ChevronRight size={20} className="btn-icon" />
             </button>
-            <a href="\src\assets\zaid-resuma-UP.pdf" download className="btn btn-secondary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
+            <a href={dow} download className="btn btn-secondary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
               <Download size={20} className="btn-icon-left" />
               Download
             </a>
