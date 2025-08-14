@@ -88,6 +88,10 @@ import dow from './assets/zaid-resuma-UP.pdf';
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
+    if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
       setActiveSection(sectionId);
