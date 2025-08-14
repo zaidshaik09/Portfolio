@@ -279,7 +279,7 @@ import dow from './assets/zaid-resuma-UP.pdf';
                   </div>
                   
                   <a 
-                    href={project.link}
+                    href={projects.link}
                     className="project-link"
                   >
                     View Project
