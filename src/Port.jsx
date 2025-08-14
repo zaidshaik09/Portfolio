@@ -40,7 +40,7 @@ import dow from './assets/zaid-resuma-UP.pdf';
       description: "Developed a web app using JavaScript that generates high-quality images through Unsplash API integration with responsive interface.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
       tech: ["JavaScript", "HTML/CSS", "Fetch API", "JSON", "Unsplash API"],
-      link: "https://image-search-two-theta.vercel.app/"
+      link: "https://image-search-av4kkvy4p-shaik-mohammed-zaids-projects.vercel.app/"
     },
     // {
     //   id: 4,
