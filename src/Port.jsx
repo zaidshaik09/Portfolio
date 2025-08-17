@@ -88,6 +88,10 @@ import dow from './assets/zaid-resuma-UP.pdf';
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
+    if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
       setActiveSection(sectionId);
@@ -283,7 +287,7 @@ import dow from './assets/zaid-resuma-UP.pdf';
                     className="project-link"
                   >
                     View Project
-                    <ExternalLink size={16} />
+                    <ExternalLink size={56} />
                   </a>
                 </div>
               </div>
